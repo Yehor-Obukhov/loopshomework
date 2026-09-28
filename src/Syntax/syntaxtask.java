@@ -88,14 +88,13 @@ public class syntaxtask {
         } while (userChoicePart3.equalsIgnoreCase("Y"));
 
 
-        // // Part 4. Put Previous Project (3.3) into Loop
+        // Part 4 previous Project (3.3) into Loop
         System.out.println("\n==========================================");
         System.out.println("=== PART 4: REPEATING CONVERSATION LOOP ===");
         System.out.println("==========================================");
 
         String userChoicePart4;
         do {
-            // Simulated conversation logic from Project 3.3
             System.out.print("Hello! What is your name? ");
             String name = scanner.nextLine();
             System.out.println("Nice to meet you, " + name + "!");
